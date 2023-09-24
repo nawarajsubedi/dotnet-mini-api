@@ -3,7 +3,7 @@ Description=Sample dotnet min app running on Linux
 
 [Service]
 WorkingDirectory=/var/www/dotnet-mini-app
-ExecStart=/usr/bin/dotnet /var/www/dotnet-mini-app/mini-api.dll
+ExecStart=/usr/bin/dotnet /var/www/dotnet-mini-app/min-api.dll
 Restart=always
 # Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=10
